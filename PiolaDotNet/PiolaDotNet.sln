@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Source", "Source", "{0AA41C86-56AF-4901-9BAB-2C5D994EB956}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{1EFA1A44-14DB-45E2-8171-214B2AE5A2BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patterns", "Patterns", "{2308E1E5-EC98-42E7-A75E-CBC63E03D555}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelViewPresenter", "src\patterns\ModelViewPresenter\ModelViewPresenter.csproj", "{0E82DDC2-559E-4C2A-9159-970508308028}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Patterns", "Patterns", "{ADF6C2D9-4311-4351-A46C-01FE3B82CBDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelViewPresenter.Test", "test\patterns\ModelViewPresenter.Test\ModelViewPresenter.Test.csproj", "{A9177D85-585C-4938-9CCE-0DC3D01275C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E82DDC2-559E-4C2A-9159-970508308028}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E82DDC2-559E-4C2A-9159-970508308028}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E82DDC2-559E-4C2A-9159-970508308028}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E82DDC2-559E-4C2A-9159-970508308028}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9177D85-585C-4938-9CCE-0DC3D01275C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9177D85-585C-4938-9CCE-0DC3D01275C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9177D85-585C-4938-9CCE-0DC3D01275C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9177D85-585C-4938-9CCE-0DC3D01275C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2308E1E5-EC98-42E7-A75E-CBC63E03D555} = {0AA41C86-56AF-4901-9BAB-2C5D994EB956}
+		{0E82DDC2-559E-4C2A-9159-970508308028} = {2308E1E5-EC98-42E7-A75E-CBC63E03D555}
+		{ADF6C2D9-4311-4351-A46C-01FE3B82CBDC} = {1EFA1A44-14DB-45E2-8171-214B2AE5A2BC}
+		{A9177D85-585C-4938-9CCE-0DC3D01275C3} = {ADF6C2D9-4311-4351-A46C-01FE3B82CBDC}
+	EndGlobalSection
+EndGlobal
